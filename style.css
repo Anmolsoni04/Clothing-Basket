@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: rgba(14, 1, 1, 0.822);
+    color: white;
+    padding: 25px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.cart{
+    position: relative;
+    cursor: pointer;
+}
+.cart img{
+    height: 50px;
+}
+.cartData{
+    position: absolute;
+    top: -20px;
+    right: -11px;
+    border-radius: 5px;
+    color: orange;
+    padding: 2px;
+    font-size: 33px
+
+}
+
+/* Shop Styling */
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    justify-content: center;
+}
+
+.item{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 12px;
+}
+.cost-quantity{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2px;
+}
+
+.buttons{
+    padding-right: 11px;
+    padding-bottom: -12px;
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.less{
+    background-color: red;
+    border: 2px sold black;
+    padding: 5px;
+    font-size: 12px;
+    border: 2px solid black;
+    padding-bottom: 6px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.less:hover{
+    background-color: rgba(14, 1, 1, 0.822);
+    transition-duration: 0.4s;
+    /* transform: translateY(-5px); */
+}
+.add{
+    background-color: #24b429;
+    border: 2px sold black;
+    padding: 5px;
+    font-size: 12px;
+    border: 2px solid black;
+    padding-bottom: 6px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.add:hover{
+    background-color: rgba(14, 1, 1, 0.822);
+    transition-duration: 0.4s;
+    /* transform: translateY(-5px); */
+}
+.cost-quantity h2{
+    font-size: 18px;
+}
+
+p{
+    padding-bottom: 24px;
+}
+
+/* Responisveness */
+
+@media (max-width: 1000px){
+    .shop{
+        grid-template-columns: repeat(2, 223px);
+    } 
+}
+@media (max-width: 700px){
+    .shop{
+        grid-template-columns: repeat(1, 223px);
+    }
+}
+@media (max-width: 300px){
+    .shop{
+        grid-template-columns: repeat(1, 223px);
+    }
+}

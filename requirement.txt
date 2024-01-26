@@ -1,0 +1,34 @@
+Total Product Cards - 12
+Total categories in a row - 4
+Row-wise name of categories-
+
+1st row - shirts:
+a) Formal shirts
+b) Casual shirts
+c) Denim shirts
+d) Checked shirts
+
+2nd row - T-shirts
+a) Round-neck t-shirt
+b) Collor t-shirts
+c) v-neck t-shirts
+d) sports t-shirts
+
+
+3rd row - Trousers
+a) Jeans
+b) Khakis
+c) Baggy pants
+d) Cargos
+
+4th row - Shoes
+a) Loafers
+b) Sneakers
+c) Sports Shoes
+d) Combat Shoes
+
+5th row - Accessories
+a) Tie
+b) Watches
+c) Rings
+d) Bracelets
